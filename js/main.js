@@ -17,7 +17,7 @@ const logo = document.querySelector('p img'); // p 태그 아래의 이미지 �
 // 200개의 이미지 요소를 생성하여 main 요소에 추가
 for(let i=0; i<200; i++){
   const imgNode = document.createElement('img'); // img 요소 생성
-  imgNode.setAttribute('src', `/img/pic${i}.jpg`); // 생성한 img 요소에 src 속성 추가
+  imgNode.setAttribute('src', `img/pic${i}.jpg`); // 생성한 img 요소에 src 속성 추가
   main.append(imgNode); // main 요소에 img 요소 추가
 }
 
